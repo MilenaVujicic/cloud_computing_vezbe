@@ -8,6 +8,7 @@ Dokumentacija i instalacija: https://python-poetry.org/
 Ako shell ne prepoznaje poetry komandu: ``source $HOME/.poetry/env``
 
 Inicijalizacija poetry okruženja:
+
 - ``poetry init`` 
 - ``poetry lock``
 - ``poetry install``
@@ -20,7 +21,8 @@ Django
 Potrebno instalirati Django dependecy
 
 Najbitnije komande:
-- ``django-admin startproject ime_projekta ``
+
+- ``django-admin startproject ime_projekta``
 - ``python manage.py migrate``
 - ``python manage.py makemigrations``
 - ``python manage.py createsuperuser``

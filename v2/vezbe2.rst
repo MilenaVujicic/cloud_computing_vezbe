@@ -2,7 +2,7 @@ Django
 ------
 
 Kreiranje projekta: ``django-admin startproject ime_projekta``
-Kreiranje modula u projektu ``django-admin startapp ime_modula`` **da bi prethodna komanda radila potrebno je biti u pozicioniran folderu ime_projekta**
+Kreiranje modula u projektu ``django-admin startapp ime_modula`` **da bi prethodna komanda radila potrebno je biti pozicioniran folderu ime_projekta**
 
 
 - Primer povezivanja sa postgresql bazom podataka (settings.py)::
@@ -36,7 +36,7 @@ Dokumentacija koja sadrži tipove polja modela: https://docs.djangoproject.com/e
             model = Student
             fields = ['id', 'name', 'surname', 'avg_grade']
 
-Dokumentacija za pravljenje seriajlizatora: https://www.django-rest-framework.org/api-guide/serializers/
+Dokumentacija za pravljenje serijalizatora: https://www.django-rest-framework.org/api-guide/serializers/
 
 
 
@@ -53,3 +53,4 @@ Dokumentacija za pravljenje seriajlizatora: https://www.django-rest-framework.or
         return JsonResponse(serializer.data, safe=False, status=200)
 
 
+**Napraviti Django aplikaciju. Povezati je sa bazom podataka po želji. Napraviti novi modul koji će se zvati zaposleni. Zaposleni ima: ime, prezime, datum rođenja i platu. Napraviti rest endpoint za pristup objektima iz baze**

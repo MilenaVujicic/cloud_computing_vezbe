@@ -1,7 +1,7 @@
 Environment Variables:
 =======================
 
-Environment varijabla je par ključ-vrednost čije kreiranje omogućuje operativni sistem. Koristi se za čuvanje podešavanja i informacija potrebnih za pokretanje procesa.
+Environment varijabla je par ključ-vrednost čije kreiranje omogućuje operativni sistem. Koristi se za čuvanje podešavanja i informacija potrebnih za pokretanje ili izvršavanje procesa.
 
 U Linux operativno sistemu environment varijabla se može definisati na dva načina:
 ``VARNAME="value"`` ili
